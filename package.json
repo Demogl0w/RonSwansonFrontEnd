@@ -17,5 +17,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "process.env.BACKEND || http://localhost:5000"
+  "proxy": "http://ron-quote-generator-backend.herokuapp.com:80"
 }
