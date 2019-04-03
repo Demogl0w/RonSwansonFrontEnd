@@ -6,7 +6,7 @@ import "./quoteGetter.css";
 
 //Forming a post request for rating storage
 const poster = (rating, quote) => {
-  fetch("http://localhost:5000/RateQuote", {
+  fetch("http://http://ron-quote-generator-backend.herokuapp.com/RateQuote", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"

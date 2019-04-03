@@ -14,7 +14,7 @@ const mapDispatchToProps = dispatch => ({
 
   //Dispatch that hits our server quote and quote info
   getQuote: size => {
-    fetch(`http://localhost:5000/Quote/${size}`)
+    fetch(`http://ron-quote-generator-backend.herokuapp.com/Quote/${size}`)
       .then(res => res.json())
       .then(tempQuote => {
         console.log(tempQuote);
